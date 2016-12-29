@@ -47,7 +47,7 @@ You should also decide now what results you will be looking for in order to laun
 
 ### Measuring Variability
 
-This spreadsheet contains rough estimates of the baseline values for these metrics (again, these numbers have been changed from Udacity's true numbers).  
+This [spreadsheet](data/Baseline_Values.gsheet) contains rough estimates of the baseline values for these metrics (again, these numbers have been changed from Udacity's true numbers).  
 For each metric you selected as an evaluation metric, estimate its standard deviation analytically. Do you expect the analytic estimates to be accurate? That is, for which metrics, if any, would you want to collect an empirical estimate of the variability if you had time? 
 </br>
 </br>
