@@ -69,7 +69,7 @@ Given the percentage you chose, how long would the experiment take to run, using
 
 ### Analysis 
 
-The data for you to analyze is in this file [**A/B Results**](data/Calculations.xls) (_note: in "Control" and "Experiment" tabs_) . This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
+The data for you to analyze is in this file [**A/B Results**](data/Calculations.xls) (_note: "Control" and "Experiment" tabs_) . This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
 
 The meaning of each column is: 
 - **Pageviews:** Number of unique cookies to view the course overview page that day.  
