@@ -33,12 +33,12 @@ The practical significance boundary for each metric, that is, the difference tha
 Any place "unique cookies" are mentioned, the uniqueness is determined by day. (That is, the same cookie visiting on different days would be counted twice.) User-ids are automatically unique since the site does not allow the same user-id to enroll twice.  
 </br>
 - **Number of cookies:** That is, number of unique cookies to view the course overview page. (**_dmin=3000_**)  
-- Number of user-ids: That is, number of users who enroll in the free trial. (dmin=50)  
-- Number of clicks: That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (dmin=240)  
-- Click-through-probability: That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (dmin=0.01)  
-- Gross conversion: That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (dmin= 0.01)  
-- Retention: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (dmin=0.01)  
-- Net conversion: That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (dmin= 0.0075)  
+- **Number of user-ids**: That is, number of users who enroll in the free trial. (**_dmin=50_**)  
+- **Number of clicks:** That is, number of unique cookies to click the "Start free trial" button (which happens before the free trial screener is trigger). (**_dmin=240_**)  
+- **Click-through-probability:** That is, number of unique cookies to click the "Start free trial" button divided by number of unique cookies to view the course overview page. (**_dmin=0.01_**)  
+- **Gross conversion:** That is, number of user-ids to complete checkout and enroll in the free trial divided by number of unique cookies to click the "Start free trial" button. (**_dmin= 0.01_**)  
+- **Retention:** That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by number of user-ids to complete checkout. (**_dmin=0.01_**)  
+- **Net conversion:** That is, number of user-ids to remain enrolled past the 14-day boundary (and thus make at least one payment) divided by the number of unique cookies to click the "Start free trial" button. (**_dmin= 0.0075_**)  
 </br>
 
 You should also decide now what results you will be looking for in order to launch the experiment. Would a change in any one of your evaluation metrics be sufficient? Would you want to see multiple metrics all move or not move at the same time in order to launch? This decision will inform your choices while designing the experiment.  
@@ -56,7 +56,7 @@ For each metric you selected as an evaluation metric, estimate its standard devi
 
 #### Choosing Number of Samples given Power  
 
-Using the analytic estimates of variance, how many pageviews total (across both groups) would you need to collect to adequately power the experiment? Use an alpha of 0.05 and a beta of 0.2. Make sure you have enough power for each metric.  
+Using the analytic estimates of variance, how many pageviews **total** (across both groups) would you need to collect to adequately power the experiment? Use an alpha of 0.05 and a beta of 0.2. Make sure you have enough power for **each** metric.  
 </br>
 
 #### Choosing Duration vs. Exposure  
@@ -69,13 +69,13 @@ Given the percentage you chose, how long would the experiment take to run, using
 
 ### Analysis 
 
-The data for you to analyze is here. This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
+The data for you to analyze is [here](jhqfhjdsjfsdmldfsj). This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
 
 The meaning of each column is: 
-- Pageviews: Number of unique cookies to view the course overview page that day.  
-- Clicks: Number of unique cookies to click the course overview page that day.  
-- Enrollments: Number of user-ids to enroll in the free trial that day.  
-- Payments: Number of user-ids who who enrolled on that day to remain enrolled for 14 days and thus make a payment. (Note that the date for this column is the start date, that is, the date of enrollment, rather than the date of the payment. The payment happened 14 days later. Because of this, the enrollments and payments are tracked for 14 fewer days than the other columns.)  
+- **Pageviews:** Number of unique cookies to view the course overview page that day.  
+- **Clicks:** Number of unique cookies to click the course overview page that day.  
+- **Enrollments:** Number of user-ids to enroll in the free trial that day.  
+- **Payments:** Number of user-ids who who enrolled on that day to remain enrolled for 14 days and thus make a payment. (Note that the date for this column is the start date, that is, the date of enrollment, rather than the date of the payment. The payment happened 14 days later. Because of this, the enrollments and payments are tracked for 14 fewer days than the other columns.)  
 </br>
 
 #### Sanity Checks
