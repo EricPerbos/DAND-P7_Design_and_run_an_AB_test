@@ -80,6 +80,7 @@ The meaning of each column is:
 #### Sanity Checks
 
 Start by checking whether your invariant metrics are equivalent between the two groups. If the invariant metric is a simple count that should be randomly split between the 2 groups, you can use a binomial test as demonstrated in Lesson 5. Otherwise, you will need to construct a confidence interval for a difference in proportions using a similar strategy as in Lesson 1, then check whether the difference between group values falls within that confidence level.  
+
 If your sanity checks fail, look at the day by day data and see if you can offer any insight into what is causing the problem.  
 </br>
 
