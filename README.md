@@ -17,7 +17,7 @@ In the experiment, Udacity tested a change where if the student clicked "start f
 - If the student indicated 5 or more hours per week, they would be taken through the checkout process as usual.  
 - If they indicated fewer than 5 hours per week, a message would appear indicating that Udacity courses usually require a greater time commitment for successful completion, and suggesting that the student might like to access the course materials for free. At this point, the student would have the option to continue enrolling in the free trial, or access the course materials for free instead.  
 
-This [screenshot](images/Experiment_Screenshot.png) shows what the experiment looks like.  
+This [**screenshot**](images/Experiment_Screenshot.png) shows what the experiment looks like.  
 
 The hypothesis was that this might set clearer expectations for students upfront, thus reducing the number of frustrated students who left the free trial because they didn't have enough time—without significantly reducing the number of students to continue past the free trial and eventually complete the course. If this hypothesis held true, Udacity could improve the overall student experience and improve coaches' capacity to support students who are likely to complete the course.  
 </br>
@@ -47,7 +47,7 @@ You should also decide now what results you will be looking for in order to laun
 
 ### Measuring Variability
 
-This [spreadsheet](data/Baseline_Values.ods) contains rough estimates of the baseline values for these metrics (again, these numbers have been changed from Udacity's true numbers).  
+This [**spreadsheet**](data/Baseline_Values.ods) contains rough estimates of the baseline values for these metrics (again, these numbers have been changed from Udacity's true numbers).  
 For each metric you selected as an evaluation metric, estimate its standard deviation analytically. Do you expect the analytic estimates to be accurate? That is, for which metrics, if any, would you want to collect an empirical estimate of the variability if you had time? 
 </br>
 </br>
@@ -69,7 +69,7 @@ Given the percentage you chose, how long would the experiment take to run, using
 
 ### Analysis 
 
-The data for you to analyze is [here](data/Calculations.xls) (_note: in "Control" and "Experiment" tabs_) . This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
+The data for you to analyze is [**here: Results**](data/Calculations.xls) (_note: in "Control" and "Experiment" tabs_) . This data contains the raw information needed to compute the above metrics, broken down day by day. Note that there are two sheets within the spreadsheet - one for the experiment group, and one for the control group.  
 
 The meaning of each column is: 
 - **Pageviews:** Number of unique cookies to view the course overview page that day.  
